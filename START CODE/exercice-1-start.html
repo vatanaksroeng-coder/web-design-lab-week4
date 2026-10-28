@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+
+      body{
+        margin: 0;
+        padding: 0;
+        background: pink;
+        
+      }
+  
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0em 10em;
+        background: greenyellow;
+      }
+
+      header,
+      footer {
+        background: grey;
+        height: 100px;
+        flex-shrink: 0;
+      }
+
+      main {
+        background: grey;
+        flex: 1;
+        min-height: 0;
+        margin-top:1em;
+        margin-bottom:1em;
+
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <main>Main</main>
+      <footer>Footer</footer>
+      </section>
+    </div>
+  </body>
+</html>
